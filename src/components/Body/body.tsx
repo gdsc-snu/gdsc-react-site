@@ -1,7 +1,7 @@
-import logo from '../svgimageFiles/logo.svg';
-import topcircle from '../svgimageFiles/top-circle.svg';
-import orangecircle from '../svgimageFiles/leftOrangeCircle.svg';
-import dottedDesign from '../svgimageFiles/dottedDesign.svg'
+import logo from '../../svgimageFiles/logo.svg';
+import topcircle from '../../svgimageFiles/top-circle.svg';
+import orangecircle from '../../svgimageFiles/leftOrangeCircle.svg';
+import dottedDesign from '../../svgimageFiles/dottedDesign.svg'
 import './body.css'
 
 const Body = () => {
