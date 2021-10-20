@@ -1,0 +1,19 @@
+.footerDiv{
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerSubDiv{
+    margin-left: 30rem;
+}
+
+.greenCircle{
+    height: 9.5vmin;
+}
+
+.logo{
+    height: 4vmin;
+    margin: 2rem
+}
