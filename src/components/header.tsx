@@ -4,7 +4,9 @@ import './header.css'
 const Header = () => {
     return (
         <div className='headerDiv'>
-            <img src={headerimage} className="" alt="google developer student club" />
+            <img src='images/gdsc-logo.png' className="headerLogo" alt="google developer student club" />
+            <p> <b style={{ fontSize: 22}}> Google Developers Student Clubs </b>
+            <br /> Sister Nivedita University</p>
         </div>
     )
 }
