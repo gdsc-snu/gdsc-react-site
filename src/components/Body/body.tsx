@@ -7,9 +7,10 @@ import './body.css'
 const Body = () => {
     return (
         <div className='bodyDiv' >
-            <img src={topcircle} className="topCircle" alt="google developer student club" />
             <div className='bodySubDiv'> 
             <div>
+            <img src={topcircle} className="topCircle" alt="google developer student club" />
+
                 <h1 className='bodyHead'> Welcome to <br /> GDSC SNU </h1> 
                 <p className='bodyText'>Google Developer Student Club (GDSC)  is a Google
                      <br /> Developers program for university students to learn 
