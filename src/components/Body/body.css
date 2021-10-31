@@ -30,7 +30,6 @@
 .dottedDesign{
     height: 20vmin;
     margin-top: 0rem;
-
 }
 
 .bodyHead{
@@ -71,6 +70,9 @@
   }
   
   @media (max-width: 425px) {
+    .bodyDiv{
+      margin-top: 0rem;
+    }
     .bodySubDiv {
         font-size: 1rem;
       }
@@ -92,6 +94,7 @@
       }
       .bodyButton{
         width: 5rem;
+        margin-top: 1.5rem;
       }
   }
   
