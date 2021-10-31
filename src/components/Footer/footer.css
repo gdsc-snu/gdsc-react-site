@@ -17,3 +17,24 @@
     height: 4vmin;
     margin: 2rem
 }
+
+@media (max-width: 1024px){
+    .footerSubDiv{
+        margin-left: 15rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .footerSubDiv{
+        margin-left: 5rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .footerSubDiv{
+        margin-left: 0rem;
+    }
+    .greenCircle{
+        height: 7.5vmin;
+    }
+}

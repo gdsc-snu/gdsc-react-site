@@ -13,9 +13,9 @@ const Body = () => {
 
                 <h1 className='bodyHead'> Welcome to <br /> GDSC SNU </h1> 
                 <p className='bodyText'>Google Developer Student Club (GDSC)  is a Google
-                     <br /> Developers program for university students to learn 
-                     <br /> web, mobile, and google technologies in a peer-to-peer 
-                     <br /> learning environment. 
+                      Developers program for university students to learn 
+                      web, mobile, and google technologies in a peer-to-peer 
+                      learning environment. 
                 </p> 
                 <button className='bodyButton' > Join Us</button> 
                 <button className='bodyButton' style={{background: 'white'}}> Contact us</button>
@@ -26,6 +26,7 @@ const Body = () => {
                 <img src={logo} className="App-logo" alt="logo" />
                 <img src={orangecircle} className="orangeCircle" alt="google developer student club" />
             </div>
+            <img src={logo} className="App-logo2" alt="logo" />
         </div>
     )
 }

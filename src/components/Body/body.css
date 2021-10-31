@@ -23,12 +23,12 @@
 
 .bodyText{
     color:#6D6D6D;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-left: 2rem;
 
 }
 .dottedDesign{
-    height: 25vmin;
+    height: 20vmin;
     margin-top: 0rem;
 
 }
@@ -43,6 +43,55 @@
 
 .App-logo {
     height: 70vmin;
-    pointer-events: none;
+}
+  .App-logo2 {
+    height: 70vmin;
+    display: none;
+}
+
+  @media (max-width: 1024px){
+    .bodyDiv{
+      margin-top: 2rem;
+   }
+    .bodySubDiv {
+      font-size: 1rem;
+    }
+    .bodyText {
+      font-size: .8rem;
+    }
+    .App-logo {
+      height: 40vmin;
+    }
+    .topCircle {
+        height: 20vmin;
+    }
+    .bodyHead{
+        margin-left: 2rem;
+    } 
+  }
+  
+  @media (max-width: 425px) {
+    .bodySubDiv {
+        font-size: 1rem;
+      }
+      .bodyText {
+        font-size: 1rem;
+      }
+      .App-logo{
+        display: none;
+      }
+      .App-logo2{
+          height: 70vmin;
+          display:block;
+      }
+      .topCircle {
+          height: 22vmin;
+      }
+      .bodyHead{
+          margin-left: 2rem;
+      }
+      .bodyButton{
+        width: 5rem;
+      }
   }
   
