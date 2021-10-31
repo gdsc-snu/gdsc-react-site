@@ -9,5 +9,13 @@ jobs:
         with:
           node-version: '14'
       - run: npm install
-      - run: npm build
+      - run: npm run build
+      - run: git clone https://github.com/gdsc-snu/gdsc-snu.github.io.git
+      - run: cp -r build/* gdsc-snu.github.io
+      - run: cd gdsc-snu.github.io
+      - run: git add .
+      - run: git commit -m "test-build"
+      - run: git push origin main
+
+
       
