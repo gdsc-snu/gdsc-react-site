@@ -1,0 +1,21 @@
+name: test-action
+on: [push]
+jobs:
+  build-the-code: 
+    runs-on: ubuntu-latest
+    steps: 
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+      - run: npm install
+      - run: npm run build
+      - run: git clone https://github.com/gdsc-snu/gdsc-snu.github.io.git
+      - run: cp -r build/* gdsc-snu.github.io
+      - run: cd gdsc-snu.github.io
+      - run: git add .
+      - run: git commit -m "test-build"
+      - run: git push origin main
+
+
+      
