@@ -12,7 +12,7 @@ const Body = () => {
             <img src={topcircle} className="topCircle" alt="google developer student club" />
 
                 <h1 className='bodyHead'> Welcome to <br /> GDSC SNU </h1> 
-                <p className='bodyText'>Google Developer Student Club (GDSC)  is a Google
+                <p className='bodyText'>Google Developer Student Club (GDSC) is a Google
                       Developers program for university students to learn 
                       web, mobile, and google technologies in a peer-to-peer 
                       learning environment. 
